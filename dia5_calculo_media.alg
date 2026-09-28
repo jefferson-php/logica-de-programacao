@@ -1,0 +1,25 @@
+algoritmo
+var
+  n1, n2, n3: inteiro
+  media: real
+inicio
+  escreva("Digite sua primeira nota: ")
+  leia(n1)
+  escreva("Digite sua segunda nota: ")
+  leia(n2)
+  escreva("Digite sua terceira nota: ")
+  leia(n3)
+
+  media <- (n1+n2+n3)/3
+
+  escreva("Sua média é: ", media)
+
+  se (media >=7) entao
+    escreva(" Aprovado!")
+  senao se (media >=5) entao
+    escreva(" Recuperação! :)")
+  senao
+    escreva(" Reprovado! :(")
+  fimse
+
+fimalgoritmo
