@@ -1,0 +1,22 @@
+algoritmo "Calcular Idade"
+
+var
+  ano, nasc, idade: inteiro
+inicio
+  escreva("Em que ano nós estamos? ")
+  leia(ano)
+  escreva("Em que anos você nasceu? ")
+  leia(nasc)
+  idade <- ano - nasc
+    escreval("Em ", ano, " você tera ", idade, " anos.")
+  se (idade >= 18) entao
+    escreval(" e já atingido a maior idade ")
+  senao se (idade >= 13) entao
+    escreva("Você é um adolescente! ")
+  senao
+    escreva("Você É UMA CRIANÇA! ")
+  fimse
+  fimse
+
+
+fimalgoritmo
